@@ -256,7 +256,6 @@ p {
 
             &:hover {
                 .sub-menu {
-                    top: 0;
                     opacity: 1;
                     pointer-events: auto;
                     transition: all 0.4s ease;
@@ -308,7 +307,6 @@ p {
 
     display: flex;
     justify-content: space-between;
-    width: 65%;
     gap: 50px;
 
     .main-content {
