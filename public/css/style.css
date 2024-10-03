@@ -75,7 +75,7 @@ p {
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li:hover {
-  background: #1d1b31;
+  background: #131113;
 }
 .sidebar .nav-links li:hover .sub-menu.blank {
   top: 50%;
@@ -110,7 +110,7 @@ p {
 .sidebar .nav-links li .sub-menu {
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: #1d1b31;
+  background: #131113;
   display: none;
 }
 .sidebar .nav-links li .sub-menu a {
@@ -161,9 +161,8 @@ p {
   width: 52px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 16px;
+  border-radius: 15px;
   margin: 0 14px 0 12px;
-  background: #1d1b31;
   transition: all 0.5s ease;
 }
 .sidebar .profile-details .profile_name {
@@ -204,7 +203,7 @@ p {
   top: -10px;
   margin-top: 0;
   padding: 10px 20px;
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 15px 15px 0;
   opacity: 0;
   display: block;
   pointer-events: none;
@@ -253,7 +252,6 @@ p {
   width: calc(100% - 260px);
   transition: all 0.5s ease;
   display: flex;
-  justify-content: space-between;
   gap: 50px;
 }
 .home-section .main-content {
@@ -277,10 +275,11 @@ p {
 .home-section .main-content .sidebar-button .search-container input#search-bar {
   height: 45px;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 15px;
   outline: none;
   background: #131113;
   padding-left: 20px;
+  border: none;
 }
 .home-section .main-content .sidebar-button .search-container input#search-bar:focus {
   border: 1px solid #fff;
@@ -315,7 +314,7 @@ p {
   justify-content: space-between;
   padding: 0 25px;
   margin: 15px 0;
-  border-radius: 10px;
+  border-radius: 15px;
   background: #D1113A;
   width: 100%;
 }
@@ -354,8 +353,8 @@ p {
 .home-section .main-content .discover-content {
   width: 100%;
 }
-.home-section .main-content .discover-content h3 {
-  margin-left: 20px;
+.home-section .main-content .discover-content h2 {
+  margin: 15px 0 15px 10px;
   color: #fff;
 }
 .home-section .main-content .discover-content .discover-cards {
@@ -383,7 +382,7 @@ p {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 .home-section .main-content .discover-content .discover-cards .banner_wrapper .card__wrapper {
   display: flex;
@@ -394,7 +393,7 @@ p {
   width: 100%;
   padding: 1rem;
   background-color: #131113;
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 15px 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -407,7 +406,7 @@ p {
 .home-section .main-content .discover-content .discover-cards .banner_wrapper .card .card__info .card__avatar {
   width: 35px;
   height: 35px;
-  border-radius: 10px;
+  border-radius: 15px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -427,9 +426,9 @@ p {
   background-color: #fff;
   font-weight: 400;
   color: #000;
-  font-family: inherit;
   cursor: pointer;
   transition: 0.3s all ease;
+  border: none;
 }
 .home-section .main-content .discover-content .discover-cards .banner_wrapper .card button span {
   font-size: 12px;
@@ -446,7 +445,7 @@ p {
   flex-direction: column;
   margin: 15px 15px 15px 0;
   gap: 50px;
-  width: 25%;
+  width: 35%;
 }
 .home-section .info-content .wallet-view {
   display: flex;
@@ -458,7 +457,7 @@ p {
   font-weight: 600;
 }
 .home-section .info-content .wallet-view p {
-  margin-bottom: 5px;
+  margin: 5px 0;
   color: #fff;
 }
 .home-section .info-content .wallet-view .graph {
@@ -479,7 +478,7 @@ p {
   align-items: center;
   justify-content: start;
   background: #D1113A;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 15px 0;
   margin: 15px 15px 15px 0;
   transition: all 0.5s ease;
@@ -493,9 +492,8 @@ p {
   width: 52px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 16px;
+  border-radius: 15px;
   margin: 0 14px 0 12px;
-  background: #D1113A;
   transition: all 0.5s ease;
 }
 .home-section .info-content .top-sellers .sellers .profile-details .profile_name {
@@ -520,7 +518,7 @@ p {
   background: #D1113A;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 25px;
 }
 .home-section .info-content .news-div .news-title h2 {
@@ -544,10 +542,11 @@ p {
   background: #D1113A;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 25px;
+  border-radius: 15px;
+  padding: 15px 5px;
   color: #fff;
   width: 100%;
+  font-size: 36px;
 }
 
 @media (max-width: 420px) {
