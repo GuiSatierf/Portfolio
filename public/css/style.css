@@ -9,6 +9,26 @@ body {
   background: #1D1B1D;
 }
 
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -221,6 +241,11 @@ body {
   display: none;
 }
 
+.sidebar.close ~ .home-section {
+  left: 78px;
+  width: calc(100% - 78px);
+}
+
 .home-section {
   position: relative;
   background: #1D1B1D;
@@ -230,7 +255,7 @@ body {
   transition: all 0.5s ease;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 65%;
   gap: 50px;
 }
 .home-section .main-content {
@@ -304,17 +329,14 @@ body {
   width: fit-content;
 }
 .home-section .main-content .announcement-content .announcement-title h3 {
-  font-size: 18px;
   text-transform: uppercase;
   color: #fff;
 }
 .home-section .main-content .announcement-content .announcement-title h1 {
-  font-size: 28px;
   color: #fff;
   margin: 5px 0;
 }
 .home-section .main-content .announcement-content .announcement-title p {
-  font-size: 12px;
   color: #fff;
   margin: 5px 0;
 }
@@ -398,7 +420,6 @@ body {
 }
 .home-section .main-content .discover-content .discover-cards .banner_wrapper .card .card__info p {
   color: #919191;
-  font-size: 13px;
   font-weight: 400;
 }
 .home-section .main-content .discover-content .discover-cards .banner_wrapper .card button {
@@ -427,7 +448,7 @@ body {
   flex-direction: column;
   margin: 15px 15px 15px 0;
   gap: 50px;
-  width: 30%;
+  width: 25%;
 }
 .home-section .info-content .wallet-view {
   display: flex;
@@ -436,7 +457,6 @@ body {
 }
 .home-section .info-content .wallet-view h3 {
   color: #fff;
-  font-size: 26px;
   font-weight: 600;
 }
 .home-section .info-content .wallet-view p {
@@ -449,7 +469,6 @@ body {
   background: #D1113A;
 }
 .home-section .info-content .top-sellers h3 {
-  font-size: 18px;
   color: #fff;
 }
 .home-section .info-content .top-sellers p {
@@ -506,12 +525,10 @@ body {
   border-radius: 10px;
   padding: 25px;
 }
-.home-section .info-content .news-div .news-title h1 {
-  font-size: 32px;
+.home-section .info-content .news-div .news-title h2 {
   color: #fff;
 }
 .home-section .info-content .news-div .news-title h3 {
-  font-size: 18px;
   margin: 10px 0;
   color: #fff;
 }
@@ -533,11 +550,6 @@ body {
   padding: 25px;
   color: #fff;
   width: 100%;
-}
-
-.sidebar.close ~ .home-section {
-  left: 78px;
-  width: calc(100% - 78px);
 }
 
 @media (max-width: 420px) {

@@ -1,3 +1,5 @@
+// general config
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,28 @@
 body {
     background: #1D1B1D;
 }
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+// sidebar
 
 .sidebar {
     position: fixed;
@@ -267,6 +291,13 @@ body {
     }
 }
 
+.sidebar.close~.home-section {
+    left: 78px;
+    width: calc(100% - 78px);
+}
+
+// main content
+
 .home-section {
     position: relative;
     background: #1D1B1D;
@@ -277,9 +308,8 @@ body {
 
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 65%;
     gap: 50px;
-
 
     .main-content {
         display: flex;
@@ -358,19 +388,16 @@ body {
                 width: fit-content;
 
                 h3 {
-                    font-size: 18px;
                     text-transform: uppercase;
                     color: #fff;
                 }
 
                 h1 {
-                    font-size: 28px;
                     color: #fff;
                     margin: 5px 0;
                 }
 
                 p {
-                    font-size: 12px;
                     color: #fff;
                     margin: 5px 0;
                 }
@@ -462,7 +489,6 @@ body {
 
                             p {
                                 color: #919191;
-                                font-size: 13px;
                                 font-weight: 400;
                             }
                         }
@@ -503,7 +529,7 @@ body {
         flex-direction: column;
         margin: 15px 15px 15px 0;
         gap: 50px;
-        width: 30%;
+        width: 25%;
 
         .wallet-view {
             display: flex;
@@ -512,7 +538,6 @@ body {
 
             h3 {
                 color: #fff;
-                font-size: 26px;
                 font-weight: 600;
             }
 
@@ -531,7 +556,6 @@ body {
         .top-sellers {
 
             h3 {
-                font-size: 18px;
                 color: #fff;
             }
 
@@ -597,13 +621,11 @@ body {
                 border-radius: 10px;
                 padding: 25px;
 
-                h1 {
-                    font-size: 32px;
+                h2 {
                     color: #fff;
                 }
 
                 h3 {
-                    font-size: 18px;
                     margin: 10px 0;
                     color: #fff;
                 }
@@ -630,11 +652,6 @@ body {
             }
         }
     }
-}
-
-.sidebar.close~.home-section {
-    left: 78px;
-    width: calc(100% - 78px);
 }
 
 
